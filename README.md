@@ -6,6 +6,7 @@ hasło - pass
 
 Użyte technologie:
 Java,
+SQL,
 MySQL,
 Spring Boot,
 Spring Data JPA,
