@@ -1,12 +1,12 @@
 Aplikacja korzystająca z zewnętrznego API w celu prawdzania kursów walut.
 
 Domyślny użytkownik:
-nazwa użytkownika - user
+nazwa użytkownika - user, 
 hasło - pass
 
 Użyte technologie:
-Java
-MySQL
-Spring Boot
-Spring Data JPA
-Spring Security
+Java,
+MySQL,
+Spring Boot,
+Spring Data JPA,
+Spring Security,
