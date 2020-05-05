@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Kursy walut</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <h3>Sprawdź kursy walut</h3>
+        <form th:action="@{/check}" th:object="${currencyCode}" method="get">
+            Podaj walutę do sprawdzenia: <input type="text" th:field="*{code}"/><br />
+            <input type="submit" value="Sprawdź" />
+        </form>
+        -----------------------<br />
+        Kody podstawowych walut:<br />
+        Euro - EUR<br />
+        Dolar amerykański - USD<br />
+        Frank szwajcarski - CHF<br />
+        Funt szterling - GBP
+    </body>
+</html>

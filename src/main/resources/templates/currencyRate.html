@@ -1,0 +1,10 @@
+<!DOCTYPE>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Kursy walut</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <p>Dla waluty <span th:text="${currency.getCurrency()}"></span> kurs to <span th:text="${currency.getRates()}"></span></p>
+    </body>
+</html>
